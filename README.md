@@ -30,7 +30,8 @@ source env/bin/activate
 ### 3. Установка зависимостей
 
 pip install --upgrade pip
-''pip install -r requirements.txt''
+
+pip install -r requirements.txt
 
 ### 4. Настройка переменных окружения (необязательно)
 
