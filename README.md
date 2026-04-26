@@ -43,6 +43,7 @@ ALLOWED_HOSTS=127.0.0.1,localhost
 ### 5. Выполнение миграций и запуск
 
 python manage.py migrate
+
 python manage.py runserver
 
 Проект будет доступен по адресу: http://127.0.0.1:8000/
