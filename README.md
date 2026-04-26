@@ -21,7 +21,9 @@
 ```bash
 git clone https://github.com/zavalniuk217/kittygramZavalniukEgor.git
 cd kittygramZavalniukEgor
-### 2. Создание и активация виртуального окружения
+
+---
+2. Создание и активация виртуального окружения
 Windows:
 
 bash
