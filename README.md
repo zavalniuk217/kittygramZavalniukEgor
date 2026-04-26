@@ -61,36 +61,16 @@ GET /achievements/ - Список достижений
 ## Примеры запросов
 
 Регистрация:
-{
-    "username": "kotik_lover",
-    "password": "securepass123"
-}
+{"username": "kotik_lover", "password": "securepass123"}
 
 Получение токена:
-{
-    "username": "kotik_lover",
-    "password": "securepass123"
-}
+{"username": "kotik_lover", "password": "securepass123"}
 
 Создание котика (заголовок: Authorization: Bearer <токен>):
-{
-    "name": "Барсик",
-    "color": "white",
-    "birth_year": 2020,
-    "owner": 1,
-    "achievements": [{"achievement_name": "лучший кот"}]
-}
+{"name": "Барсик", "color": "white", "birth_year": 2020, "owner": 1, "achievements": [{"achievement_name": "лучший кот"}]}
 
 Ответ сервера:
-{
-    "id": 1,
-    "name": "Барсик",
-    "color": "white",
-    "birth_year": 2020,
-    "owner": 1,
-    "achievements": [],
-    "age": 6
-}
+{"id": 1, "name": "Барсик", "color": "white", "birth_year": 2020, "owner": 1, "achievements": [], "age": 6}
 
 ## Безопасность и валидация
 
@@ -101,8 +81,7 @@ GET /achievements/ - Список достижений
 
 ## Документация
 
-После запуска: http://127.0.0.1:8000/cats/
- и http://127.0.0.1:8000/users/
+После запуска: http://127.0.0.1:8000/cats/ и http://127.0.0.1:8000/users/
 
 ## Разработчик
 
