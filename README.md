@@ -54,13 +54,21 @@ python manage.py runserver
 ## Основные эндпоинты API
 
 POST /auth/users/ - Регистрация пользователя
+
 POST /auth/jwt/create/ - Получение JWT-токена
+
 GET /cats/ - Список всех котиков
+
 POST /cats/ - Добавить котика (требуется токен)
+
 GET /cats/{id}/ - Получить котика по ID
+
 PATCH /cats/{id}/ - Изменить котика (только владелец)
+
 DELETE /cats/{id}/ - Удалить котика (только владелец)
+
 GET /users/ - Список пользователей
+
 GET /achievements/ - Список достижений
 
 ## Примеры запросов
