@@ -39,7 +39,6 @@ pip install -r requirements.txt
 4. Настройка переменных окружения (необязательно)
 Создайте файл .env в корне проекта (можно скопировать из .env.example):
 
-text
 SECRET_KEY=django-insecure-ваш-секретный-ключ
 DEBUG=True
 ALLOWED_HOSTS=127.0.0.1,localhost
